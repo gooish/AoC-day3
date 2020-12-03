@@ -1,0 +1,16 @@
+C:\Users\Elli\Desktop\reitti\obj\Debug\net5.0\reitti.csprojAssemblyReference.cache
+C:\Users\Elli\Desktop\reitti\obj\Debug\net5.0\reitti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elli\Desktop\reitti\obj\Debug\net5.0\reitti.AssemblyInfoInputs.cache
+C:\Users\Elli\Desktop\reitti\obj\Debug\net5.0\reitti.AssemblyInfo.cs
+C:\Users\Elli\Desktop\reitti\obj\Debug\net5.0\reitti.csproj.CoreCompileInputs.cache
+C:\Users\Elli\Desktop\reitti\bin\Debug\net5.0\reitti.exe
+C:\Users\Elli\Desktop\reitti\bin\Debug\net5.0\reitti.deps.json
+C:\Users\Elli\Desktop\reitti\bin\Debug\net5.0\reitti.runtimeconfig.json
+C:\Users\Elli\Desktop\reitti\bin\Debug\net5.0\reitti.runtimeconfig.dev.json
+C:\Users\Elli\Desktop\reitti\bin\Debug\net5.0\reitti.dll
+C:\Users\Elli\Desktop\reitti\bin\Debug\net5.0\ref\reitti.dll
+C:\Users\Elli\Desktop\reitti\bin\Debug\net5.0\reitti.pdb
+C:\Users\Elli\Desktop\reitti\obj\Debug\net5.0\reitti.dll
+C:\Users\Elli\Desktop\reitti\obj\Debug\net5.0\ref\reitti.dll
+C:\Users\Elli\Desktop\reitti\obj\Debug\net5.0\reitti.pdb
+C:\Users\Elli\Desktop\reitti\obj\Debug\net5.0\reitti.genruntimeconfig.cache
