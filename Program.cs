@@ -22,6 +22,23 @@ namespace reitti
 
             // prep done, program logic goes here
 
+            (int, int) coords = (0, 0);
+            int numberOfTrees = 0;
+            for (int i = 0; i < 322; i++) {
+                merkkiArray[coords.Item1, coords.Item2] = "X";
+                coords = whereIsNextCoord(coords, merkkiArray);
+                if (isTree(merkkiArray, coords)) {
+                    numberOfTrees++;
+                }
+                
+            }
+
+            // printArr(merkkiArray);
+
+            System.Console.WriteLine(numberOfTrees);
+            
+            
+
 
         }
 
@@ -36,12 +53,30 @@ namespace reitti
 
         static (int, int) whereIsNextCoord((int, int) currentCoords, string[,] arrToCheck) {
             (int, int) naiveGoal = (currentCoords.Item1 + 1, currentCoords.Item2 + 3);
-            if (naiveGoal.Item2 < arrToCheck[naiveGoal.Item1, 0].Length) {
+            if (naiveGoal.Item2 < 32) {
+                System.Console.WriteLine("did not have to go over, at coord {0}, array row {1}", naiveGoal.Item2, naiveGoal.Item1);
                 return naiveGoal;
             }
             else {
-                int montakoYli = naiveGoal.Item2 - arrToCheck[1, 0].Length;
+                int montakoYli = naiveGoal.Item2 - 32;
+                System.Console.WriteLine("had to go over, at coord {0}", montakoYli);
                 return (naiveGoal.Item1, montakoYli);
+            }
+        }
+
+        static void printArr(string[,] arr) {
+            
+
+            int rowLength = arr.GetLength(0);
+            int colLength = arr.GetLength(1);
+
+            for (int i = 0; i < rowLength; i++)
+                {
+                    for (int j = 0; j < colLength; j++)
+                        {
+                            System.Console.Write(string.Format("{0}", arr[i, j]));
+                }
+                System.Console.WriteLine();
             }
         }
     }
